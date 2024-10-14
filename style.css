@@ -43,14 +43,17 @@ header {
     background-position: center center;
     color: aliceblue;
 }
+
 header.animals {
     background-image: url(./img/headerBGEnimals.png);
 }
+
 header.car {
     background-image: url(./img/headerBGCar.png);
 }
+
 header.flover {
-background-image: url(./img/headerBGPlants.png);
+    background-image: url(./img/headerBGPlants.png);
 }
 
 body {
@@ -77,28 +80,32 @@ footer {
 
 input {
     margin: 0px 0px 10px 0px;
-    padding: 8px ;
+    padding: 16px;
     border: 1px solid rgb(65, 93, 184);
     width: 100%;
     box-sizing: border-box;
     max-width: 300px;
-
+    font-size: 20px;
 }
 
 button {
-    padding: 8px 10px;
+    padding: 16px 26px;
     margin: 2px;
     background-color: rgb(65, 93, 184);
     color: rgb(250, 250, 250);
-    border: 1px  solid rgb(65, 93, 184); 
+    border: 1px solid rgb(65, 93, 184);
     transition: 0.5s;
     cursor: pointer;
-
+    font-size: 20px;
 }
 
 button:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(65, 93, 184);
     border: 1px solid rgb(65, 93, 184);
-    
+
+}
+
+.link-page img {
+    height: 200px;
 }
