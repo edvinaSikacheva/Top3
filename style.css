@@ -43,6 +43,15 @@ header {
     background-position: center center;
     color: aliceblue;
 }
+header.animals {
+    background-image: url(./img/headerBGEnimals.png);
+}
+header.car {
+    background-image: url(./img/headerBGCar.png);
+}
+header.flover {
+background-image: url(./img/headerBGPlants.png);
+}
 
 body {
     margin: 0px 0px 0px 0px;
